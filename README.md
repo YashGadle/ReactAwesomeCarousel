@@ -4,7 +4,7 @@ A carousel to use for a gallery usecase.
 
 ## Preview
 
-![](https://media.giphy.com/media/LPfCBDrgDOs7juWvds/giphy.gif)
+![](https://media.giphy.com/media/j0wKbhbaUWnY9mrOWR/giphy.gif)
 
 ### Tools used
 
