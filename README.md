@@ -8,7 +8,7 @@ A carousel to use for a gallery usecase.
 
 ### Tools used
 
-1. Used Intersection Observer
+1. Used IntersectionObserver API.
 2. Used a separate image component for changing layout from 'portrait' to 'landscape'
 
 ### Note
