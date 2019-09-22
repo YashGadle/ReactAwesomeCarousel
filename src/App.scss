@@ -18,8 +18,8 @@
 	flex: none;
 	justify-content: center;
 	width: fit-content;
-	margin: 0 0.75rem;
 	scroll-snap-align: center;
+	padding: 0 1rem;
 	border-radius: 8px;
 	transition: 0.5s;
 }
@@ -29,8 +29,8 @@
 	flex: none;
 	align-items: center;
 	height: fit-content;
-	margin: 0 0.75rem;
 	scroll-snap-align: center;
 	border-radius: 8px;
+	padding: 0 6rem;
 	transition: 0.5s;
 }

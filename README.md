@@ -15,6 +15,10 @@ A carousel to use for a gallery usecase.
 
 This is a very basic component for now. Will improve it and also add some test cases.
 
+### Need help,
+
+In solving some snap-scroll bug when there are smaller width images in the carousel.
+
 ### Usage
 
 ```bash

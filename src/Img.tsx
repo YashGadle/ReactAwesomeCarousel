@@ -23,11 +23,13 @@ export const Img: React.FC<Props> = props => {
 					);
 					if (entry.isIntersecting) {
 						img.style.opacity = '1';
-						if (imageType === 'landscape') x.style.width = '800px';
-						else x.style.height = '800px';
+						if (img.naturalWidth > img.naturalHeight)
+							x.style.width = '800px';
+						else x.style.height = '650px';
 					} else {
 						img.style.opacity = '0.5';
-						if (imageType === 'landscape') x.style.width = '600px';
+						if (img.naturalWidth > img.naturalHeight)
+							x.style.width = '600px';
 						else x.style.height = '600px';
 					}
 				});
@@ -35,7 +37,7 @@ export const Img: React.FC<Props> = props => {
 			{
 				root: document.querySelector('#carousel'),
 				rootMargin: '0px',
-				threshold: 0.9
+				threshold: 0.99
 			}
 		);
 
