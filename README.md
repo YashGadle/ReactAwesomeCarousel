@@ -15,9 +15,11 @@ A carousel to use for a gallery usecase.
 
 This is a very basic component for now. Will improve it and also add some test cases.
 
-### Need help,
+### TODOs,
 
-In solving some snap-scroll bug when there are smaller width images in the carousel.
+1. Add buttons to let user scroll (Currently gesture scroll is enabled).
+2. Make the component more generic to take props from outside components.
+3. If possible make the transition go proportional to the amount of intersection of the visible image. So the image gradually scales to its maximum value once it is fully visible.
 
 ### Usage
 
