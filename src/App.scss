@@ -1,0 +1,36 @@
+.Carousel {
+	position: relative;
+	display: flex;
+	height: max-content;
+	align-items: center;
+	overflow-x: scroll;
+	scroll-snap-type: x mandatory;
+	padding: 2rem 0;
+}
+
+.Carousel::-webkit-scrollbar {
+	display: none;
+	background: transparent;
+}
+
+.carousel-image-landscape {
+	display: flex;
+	flex: none;
+	justify-content: center;
+	width: fit-content;
+	margin: 0 0.75rem;
+	scroll-snap-align: center;
+	border-radius: 8px;
+	transition: 0.5s;
+}
+
+.carousel-image-portrait {
+	display: flex;
+	flex: none;
+	align-items: center;
+	height: fit-content;
+	margin: 0 0.75rem;
+	scroll-snap-align: center;
+	border-radius: 8px;
+	transition: 0.5s;
+}
