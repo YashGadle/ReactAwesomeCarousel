@@ -9,37 +9,14 @@ import img6 from './res/img6.jpg';
 import img7 from './res/img7.jpg';
 import img8 from './res/img8.jpg';
 
-import { Img } from './Img';
+import Carousel from './AwesomeCarousel';
 
 import './App.scss';
 
-const images = [null, img7, img1, img2, img3, img4, img5, img6, img8, null];
+const images = [img7, img1, img2, img3, img4, img5, img6, img8];
 
 const App: React.FC = () => {
-	return (
-		<div id="carousel" className="Carousel">
-			{images.map((image, index) =>
-				image ? (
-					<Img
-						key={image}
-						url={image}
-						width={600}
-						height={600}
-						index={index}
-					/>
-				) : (
-					<div
-						key={index}
-						style={{
-							minWidth: '20rem',
-							height: 400,
-							position: 'relative'
-						}}
-					></div>
-				)
-			)}
-		</div>
-	);
+	return <Carousel images={images} imageHeight={600} imageWidth={600} />;
 };
 
 export default App;
