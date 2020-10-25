@@ -1,4 +1,4 @@
-# React Awesome Carousel
+# React Awesome Carousel (WIP: Not complete yet. would love if anyone could help!)
 
 A carousel to use for a gallery usecase.
 
