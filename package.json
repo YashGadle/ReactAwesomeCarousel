@@ -9,7 +9,7 @@
 		"@types/react": "16.9.2",
 		"@types/react-dom": "16.9.0",
 		"classnames": "^2.2.6",
-		"node-sass": "^4.12.0",
+		"node-sass": "^7.0.0",
 		"react": "^16.9.0",
 		"react-carousel-gallery": "../react-carousel-gallery/",
 		"react-dom": "^16.9.0",
